@@ -1,11 +1,13 @@
 import React from 'react'
-
+import { forms } from './components/forms';
+import ListadeNotas from "./components/ListadeNotas"
+import Forms from "./components/forms"
 function App() {
   return (
-    <form>
-      <input type="text"/>
-      <textarea></textarea>
-    </form>
+    <div>
+      <Forms/>
+      <ListadeNotas/>
+    </div>
   );
 }
 //react-> lib
