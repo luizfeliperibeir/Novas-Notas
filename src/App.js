@@ -2,8 +2,12 @@ import React from 'react'
 
 function App() {
   return (
-    <h1>Meu app React</h1>
+    <form>
+      <input type="text"/>
+      <textarea></textarea>
+    </form>
   );
 }
-
+//react-> lib
+//React -> Ecossistema
 export default App;
