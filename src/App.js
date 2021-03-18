@@ -1,7 +1,7 @@
 import React from 'react'
-import { forms } from './components/forms';
-import ListadeNotas from "./components/ListadeNotas"
-import Forms from "./components/forms"
+import { forms } from './components/Forms/forms';
+import ListadeNotas from "./components/ListadeNotas/ListadeNotas"
+import Forms from "./components/Forms/forms"
 function App() {
   return (
     <div>
