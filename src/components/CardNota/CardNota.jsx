@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./card.css";
-class Cards extends Component {
+import "./estilo.css";
+class CardNota extends Component {
   render() {
     return (
       <section className="card-nota">

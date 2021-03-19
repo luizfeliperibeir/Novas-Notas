@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./forms.css";
+import "./estilo.css";
 class FormularioCadastro extends Component {
   render() {
     return (

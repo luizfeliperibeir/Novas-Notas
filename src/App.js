@@ -1,15 +1,17 @@
-import React from 'react'
-import { forms } from './components/Forms/forms';
-import ListadeNotas from "./components/ListadeNotas/ListadeNotas"
-import Forms from "./components/Forms/forms"
-function App() {
-  return (
-    <div>
-      <Forms/>
-      <ListadeNotas/>
-    </div>
-  );
+import React, { Component } from "react";
+import ListaDeNotas from "./components/ListaDeNotas";
+import FormularioCadastro from "./components/FormularioCadastro";
+import "./assets/App.css";
+import './assets/index.css';
+class App extends Component {
+  render() {
+    return (
+      <section className="conteudo">
+        <FormularioCadastro />
+        <ListaDeNotas />
+      </section>
+    );
+  }
 }
-//react-> lib
-//React -> Ecossistema
+
 export default App;
